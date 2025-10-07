@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Search</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+    <body>
+    <header>
+        <h1>Search For Your Squad</h1>
+    </header>
+    <main>
+        <h2>Look Up Your Favourite Squad</h2>
+        <section class="search__container">
+        <p><strong>Familiarise With Your Squad!</strong></p>
+        <p>Use the search below to look up your favourite squad or any</p>
+        <form>
+            <input type="text" placeholder="Type any team...">
+            <button class="search__button" type="button">Search</button>
+        </form>
+        </section>
+
+        <section class="players__table" style="display:none;">
+        <div class="players__container">
+            <p>These are the current players at this club:</p>
+            <ol class="players-table">
+                <li class="players-list"></li>
+            </ol>
+        </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./script.js"></script>
+</body>
+</html>
